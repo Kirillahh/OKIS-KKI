@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+markers = [
+    "basic_operations: Тесты базовых арифметических операций",
+    "multiplication_division: Тесты умножения и деления", 
+    "special_operations: Тесты специальных операций",
+    "exceptions: Тесты исключений",
+    "history: Тесты истории операций",
+    "complex_scenarios: Тесты комплексных сценариев",
+    "smoke: Дымовые тесты",
+    "regression: Регрессионные тесты"
+]
