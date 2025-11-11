@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">63</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="12">org.example.MainTest</td><td><a href="#m0">testDivisionByZeroThrowsException</a></td><td rowspan="1">1762792669206</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m1">testDivisionWithDataProvider</a></td><td rowspan="4">1762792669228</td><td rowspan="4">0</td></tr><tr class="passedeven"><td><a href="#m2">testDivisionWithDataProvider</a></td></tr><tr class="passedeven"><td><a href="#m3">testDivisionWithDataProvider</a></td></tr><tr class="passedeven"><td><a href="#m4">testDivisionWithDataProvider</a></td></tr><tr class="passedeven"><td><a href="#m5">testGetElementAtIndexOutOfBounds</a></td><td rowspan="1">1762792669229</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m6">testGetElementAtIndexValid</a></td><td rowspan="1">1762792669230</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m7">testIsPositiveWithNegativeNumber</a></td><td rowspan="1">1762792669232</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m8">testIsPositiveWithPositiveNumber</a></td><td rowspan="1">1762792669233</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m9">testIsPositiveWithZero</a></td><td rowspan="1">1762792669234</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m10">testSubtract</a></td><td rowspan="1">1762792669235</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m11">testSum</a></td><td rowspan="1">1762792669236</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">org.example.MainTest#testDivisionByZeroThrowsException</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Divisor cannot be zero
+	at org.example.Main.divide(Main.java:20)
+	at org.example.MainTest.testDivisionByZeroThrowsException(MainTest.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">org.example.MainTest#testDivisionWithDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>5</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">org.example.MainTest#testDivisionWithDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>10</td><td>2</td><td>5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">org.example.MainTest#testDivisionWithDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>15</td><td>3</td><td>5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">org.example.MainTest#testDivisionWithDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>7</td><td>1</td><td>7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">org.example.MainTest#testGetElementAtIndexOutOfBounds</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException: Index is out of bounds
+	at org.example.Main.getElementAtIndex(Main.java:28)
+	at org.example.MainTest.testGetElementAtIndexOutOfBounds(MainTest.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">org.example.MainTest#testGetElementAtIndexValid</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">org.example.MainTest#testIsPositiveWithNegativeNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">org.example.MainTest#testIsPositiveWithPositiveNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">org.example.MainTest#testIsPositiveWithZero</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">org.example.MainTest#testSubtract</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">org.example.MainTest#testSum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
