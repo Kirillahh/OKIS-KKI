@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Tests">
+    <test name="All Pages">
+        <classes>
+            <class name="com.lab.tests.MainPageTest"/>
+            <class name="com.lab.tests.NewsPageTest"/>
+        </classes>
+    </test>
+</suite>
